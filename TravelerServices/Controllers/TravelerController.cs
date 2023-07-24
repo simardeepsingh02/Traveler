@@ -4,7 +4,7 @@ using Traveler.DALayer;
 using Traveler.DALayer.Models;
 namespace TravelerServices.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class TravelerController : Controller
     {
